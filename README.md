@@ -4,7 +4,7 @@ Patch to apply to a netbox installation to add beautiful topology view to sites
 
 **Updated by [mylivingweb](https://github.com/mylivingweb/netbox_topology) to use `/api/dcim/cables/ endpoint instead` of `/api/dcim/interface-connections/`**
 
-**Additional tweaks, such as cable-type changing selection colors added by NoOne-dev** 
+Additional tweaks, such as cable-type changing selection colors added by NoOne-dev
 
 Once installed your individual site's pages should look like this:
 
