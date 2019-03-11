@@ -104,7 +104,7 @@ api_call("/static/js/topology_config.json", "GET", undefined, function(config) {
                     from: cable.termination_a.device.id, 
                     to: cable.termination_b.device.id, 
                     dashes: !cable.status.value,
-                    color: {color: color, highlight: color, hover: color},
+                    color: {color: color, highlight: type, hover: type},
                     title: cable.label+'<br>'
                         +'Connection between<br>'
                         +cable.termination_a.device.display_name+' ['+cable.termination_a.name+']<br>'
