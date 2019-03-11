@@ -2,7 +2,9 @@
 
 Patch to apply to a netbox installation to add beautiful topology view to sites
 
-**Updated to use `/api/dcim/cables/ endpoint instead` of `/api/dcim/interface-connections/`**
+**Updated by [mylivingweb](https://github.com/mylivingweb/netbox_topology) to use `/api/dcim/cables/ endpoint instead` of `/api/dcim/interface-connections/`**
+
+**Additional tweaks, such as cable-type changing selection colors added by NoOne-dev** 
 
 Once installed your individual site's pages should look like this:
 
@@ -17,7 +19,7 @@ This module allows to create and delete connections between interfaces via contr
 1. clone git repo
 
 ```
-git clone https://github.com/mylivingweb/netbox_topology.git
+git clone https://github.com/NoOne-dev/netbox_topology.git
 ```
 
 2. run install.sh, sudo might be required to get access to netbox installation directory:
@@ -56,7 +58,7 @@ CABLE_TYPE_POWER = 5000
 
 *please note that the list should include SLUGs for roles, not names and number for the cables to be shown. please check that json is valid.*
 
-6. let me know if there are any issues - https://github.com/mylivingweb/netbox_topology/pulls
+6. let me know if there are any issues - https://github.com/NoOne-dev/netbox_topology/pulls
 
 
 
