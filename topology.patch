@@ -1,7 +1,7 @@
 index bd15708..15a112a 100644
 --- netbox/project-static/css/base.css
 +++ netbox/project-static/css/base.css
-@@ -433,4 +433,17 @@ td .progress {
+@@ -586,5 +586,17 @@ td .progress {
      margin-bottom: 0;
  }
  textarea {
